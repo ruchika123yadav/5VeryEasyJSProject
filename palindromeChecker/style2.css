@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b, #ff6a95, #c94b4b, #4b79a1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.title{
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(85, 85, 220);
+}
+.button{
+    padding: 15px 35px;
+     font-weight: bolder;
+        color: black;
+        background-color: rgb(85, 85, 220);
+        border-radius: 8px;
+        box-sizing: 5px 5px 5px black;
+
+}
+input{
+    padding: 10px 30px;
+    margin-left:600px ;
+    margin-right:40px;
+    margin-top:80px;
+}

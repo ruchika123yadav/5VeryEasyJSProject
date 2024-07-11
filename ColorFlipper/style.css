@@ -1,0 +1,40 @@
+.title{
+    color: brown;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.button{
+    /* display: flex;  
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0px; */
+    text-align: center;
+    margin-top: 220px;
+    font-size: xx-large;
+}
+
+button{
+    padding: 15px 35px;
+    margin: 20px;
+    border: 2px solid black;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: blue;
+}
