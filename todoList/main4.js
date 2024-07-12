@@ -7,6 +7,8 @@ btn.addEventListener('click',function(){
     return add(value)
 })
 
+//Adding Element
+
 function add(val){
   let list=  document.createElement('li');
   let del=document.createElement('button');
@@ -19,6 +21,8 @@ function add(val){
        input.value="";
 
 }
+
+// Done button
 
 let ull=document.querySelectorAll('.ul');
  for(done of ull){
